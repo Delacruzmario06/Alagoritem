@@ -25,5 +25,8 @@ public class HashMapTests
         var value = a.Get("a");
         
         Assert.Equal(10, value);
+
+        value = a.Get("k");
+        Assert.Equal(20, value);
     }
 }
